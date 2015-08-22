@@ -13,6 +13,8 @@
 html {
     color: #222;
     font-size: 1em;
+    margin: 0;
+    padding: 0;
     line-height: 1.4;
 }
 
@@ -85,10 +87,10 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
+    margin: 0  0;
     background: #ccc;
     color: #000;
-    padding: 0.2em 0;
+    padding: 0em 0;
 }
 
 /* ==========================================================================
@@ -277,4 +279,97 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+/*home*/
+.head{
+        width:100%;
+        margin:0 auto;
+        background-color: #8e44ad;
+        color: white;
+        height: 80px;
+}
+.logo{
+      float:left;
+      margin-left: 10%;
+}
+.menu{
+  /*display: inline-flex;*/
+  float:right;
+  height: 80px;
+  font-size: 18px;
+  font-variant: small-caps;
+  margin-right: 10%;
+}
+.menu li{
+  display: inline-flex;
+  padding: 15px 15px;
+}
+.home-content{
+    height: 565px;
+    background: #444;
+    font-size: 100px;
+    color: white;
+    box-sizing: border-box;
+}
+.slide1{
+  background-image: url('../img/slide1.jpg');
+  background-size: cover;
+}
+.slide2{
+  background-image: url('../img/slide2.jpg');
+  background-size: cover;
+}
+.sm{
+  float: left;
+  width:46%;
+  padding-top: 30vh;
+  text-align: right;
+}
+.house{width: 100px;
+  padding-top: 28vh;
+  height: 110px;
+  float: left;
+}
+.rty{
+  padding-top: 30vh;
+  width:46%;
+  text-align: left;
+  float: right;
+}
+.subline{
+  float: left;
+  font-size: 30px;
+  font-variant: small-caps;
+  width: 100%;
+  bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+.subtext{
+  float: left;
+  display: none;
+  font-size: 25px;
+  font-variant: small-caps;
+  width: 100%;
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+}
+.about{
+  font-size: 16px;
+  text-align: center;
+  padding: 30px 15% ;
+  padding-bottom: 0px;
+}
+.about-title{
+  color: #9a12b3;
+  font-size: 40px;
+}
+.about-title div{
+  font-size: 24px;
+  position: relative;
+  bottom: 12px;
+}
+.info-graphic{
+  height:360px;
 }
