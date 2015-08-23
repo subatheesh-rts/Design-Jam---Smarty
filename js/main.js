@@ -34,7 +34,7 @@ function slide2() {
 }
 count=0;
 
-setTimeout(function(){
+setInterval(function(){
     if(count%2==0){
       slide2();
       count++;
@@ -45,4 +45,4 @@ setTimeout(function(){
 },2000);
 
 }
-main();
+$(document).ready(main);

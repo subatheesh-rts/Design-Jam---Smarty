@@ -3,11 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>SMARTY</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type"image/x-icon" href="img/house1.ico" />
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/skeleton.css">
@@ -22,20 +23,20 @@
 
         <!-- Add your site or application content here -->
 
-      <div class="home slide1  ">
+      <div class="home slide2  ">
         <header class="head">
           <div class="logo">
             <img src="img/logo.png" height="100%" />
           </div>
           <div class="menu">
-            <ul> <li>Home</li>
-                <li>About </li>
-                <li>Features </li>
-                <li>How It Works</li>
-                <li>Contact</li></ul>
+            <ul> <a href="#home"><li>Home</li></a>
+                <a href="#about"><li>About </li></a>
+                <a href="#feature"><li>Features </li></a>
+                <a href="#work"><li>How It Works</li></a>
+                <a href="#contact"><li>Contact</li></a></ul>
           </div>
         </header>
-        <div  class="home-content ">
+        <div  class="home-content"id="home">
             <div class="sm">SM</div>
             <div class="house" ><img src="img/house.png" width="100px" height="110px"/></div>
             <div class="rty">RTY</div>
@@ -44,14 +45,14 @@
         </div>
       </div>
 
-      <div class="about">
+      <div class="about" id="about">
         <div class="title">ABOUT<div>&diams;&diams;&diams;</div></div>
         <p><b>Smarty</b> is a <b>Artificial Intelligent home</b> system which senses all our applicances and people inside home.  <b>Smarty</b> plays an important role when user are inside home and out of home. <b>Smarty</b> automatically senses threat and send alerts to the user through smarty <b>mobile app</b> or wearable devices.</p>
-        <div class="info-graphic"></div>
+        <div class="info-graphic"><img src="img/Capture.png" /></div>
         <p><b>Smarty</b> helps in monitoring health, power consumption, water consumption predicts the future usage. It alerts us when other peoples enters our home without our knowledge.</p>
       </div>
 
-      <div class="features-container">
+      <div class="features-container" id="feature">
         <div class="title">FEATURES <div>&diams;&diams;&diams;</div></div><br>
         <div class="home-app features left">
             <div class="feature-title ">
@@ -87,11 +88,11 @@
         </div>
       </div>
 
-      <div class="container work">
+      <div class="container work" id="work">
        <div class="title">HOW IT WORKS <div>&diams;&diams;&diams;</div></div>
         <div class="row">
           <div class="columns six">
-            <div class="img img-left"><img src="img/login.jpg" /></div>
+            <div class="img img-left"><img src="img/login.png" /></div>
             <div class="future flow-left"><div class="flow-title">Login</div>
             <div class="flow-desc">User should login with either Biometric or password to control the Smarty system.</div></div>
           </div>
@@ -104,12 +105,12 @@
           <div class="columns six">
             <div class="future flow-right"><div class="flow-title">User Configuration</div>
             <div class="flow-desc">User need to configure the system for the first time as per his/her wish to do things.</div></div>
-            <div class="img img-right"><img src="img/userconf.jpg" /></div>
+            <div class="img img-right"><img src="img/userconf.png" /></div>
           </div>
         </div>
         <div class="row">
           <div class="columns six">
-            <div class="img img-left"><img src="img/analytic.jpg" /></div>
+            <div class="img img-left"><img src="img/analytic.png" /></div>
             <div class="future flow-left"><div class="flow-title">Analytics</div>
             <div class="flow-desc ">Smarty system displays the statistic of each and every equipment to the user over a period of time.</div></div>
           </div>
@@ -122,11 +123,12 @@
           <div class="columns six">
             <div class="future flow-right"><div class="flow-title">Usability and Alerts</div>
             <div class="flow-desc">User can control the System anytime using VOICE command or UI . Smarty alerts user incase any emergencies.</div></div>
-            <div class="img img-right"><img src="img/ua.jpg" /></div>
+            <div class="img img-right"><img src="img/ua.png" /></div>
           </div>
         </div>
       </div>
-      <div class="contact">
+      <div class="linker"><img src="img/link.png" class="link" /></div>
+      <div class="contact" id="contact">
         <div class="title" >CONTACT<div>&diams;&diams;&diams;</div></div>
         <div class="contact-content">
           <div class="form-elem">
@@ -136,13 +138,16 @@
               E-MAIL:<br>
               <input type="email" class="email"/><br>
               YOUR MESSAGE:<br>
-              <input type="textarea" class="textarea"/><br>
+              <input type="textarea" class="textarea"/><br><br>
               <input type="submit" class="submit"/><br>
             </form>
           </div>
           <div class="add">
-              <div class="team" >MIND BLOWERS</div>
-              <
+              <div class="team" >Mind Blowers</div>
+              <div class="event" >Design Jam </div>
+              <div class="company">ThoghtWorks </div>
+              <div class="twitter"><a href="www.twitter.com">https://twitter.com/mind.blowers.995/smarty/?href</a></div>
+              <div class="facebook"><a href="ww.facebook.com">https://facebook.com/mind.blowers.9/smarty?=!</a></div>
           </div>
         </div>
       </div>
@@ -151,7 +156,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/jquery.js"></script>
+        <!-- <script src="js/jquery.js"></script> -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

@@ -285,9 +285,15 @@ textarea {
 .head{
         width:100%;
         margin:0 auto;
-        /*background-color: #8e44ad;*/
+        background-color: #553071;
         color: white;
+        position: fixed;
         height: 80px;
+        z-index: 100;
+}
+.head a{
+  text-decoration: none;
+  color: #fff;
 }
 .logo{
       float:left;
@@ -306,7 +312,7 @@ textarea {
   padding: 15px 15px;
 }
 .home-content{
-    height: 565px;
+    height: 635px;
     /*background: #444;*/
     font-size: 100px;
     color: white;
@@ -323,16 +329,16 @@ textarea {
 .sm{
   float: left;
   width:46%;
-  padding-top: 27vh;
+  padding-top: 30vh;
   text-align: right;
 }
 .house{width: 100px;
-  padding-top: 25vh;
+  padding-top: 28vh;
   height: 110px;
   float: left;
 }
 .rty{
-  padding-top: 27vh;
+  padding-top: 30vh;
   width:46%;
   text-align: left;
   float: right;
@@ -363,7 +369,7 @@ textarea {
   padding-bottom: 0px;
 }
 .title{
-  color: #9a12b3;
+  color: #553071;
   font-size: 40px;
 }
 .title div{
@@ -375,7 +381,7 @@ textarea {
   height:360px;
 }
 .features-container{
-  background: #8e44ad;
+  background: #553071;
   padding: 30px 5%;
   padding-bottom: 0;
   font-size: 16px;
@@ -446,21 +452,66 @@ textarea {
 .columns div{
   display: inline-block;
 }
+.link{
+  position:relative;
+  bottom: 685px;
+  /*height:0;*/
+  /*left:500px;*/
+}
+.linker{
+  height:0;
+}
 .contact{
   padding: 30px 5%;
-  background: #8e44ad;
-  height:400px;
+  background: #553071;
+  height:450px;
 }
 .contact .title{
   color: #fff;
 }
 .form-elem{
-  width:55%;
+  width:45%;
   float:left;
   color: #fff;
+  font-size: 18px;
   text-align: left;
 }
-input[type]{
-  size:1000;
+.text{
+  width:460px;
+}
+.email{
+  width:460px;
+}
+.textarea{
+  width: 460px;
+  height: 100px;
   color: #fff;
+}
+.submit[type]{
+  color: #fff;
+}
+input[type]{
+  color: #111;
+}
+.add{
+  float: right;
+  color: #fff;
+  width:45%;
+  text-align: left;
+  font-size: 20px;
+}
+.team{
+  font-size: 30px;
+  padding-top: 20px;
+}
+.event{
+  font-size: 20px;
+  padding-top: 20px;
+}
+.company{
+  font-size: 20px;padding-top: 20px;
+}
+a{
+  font-size: 16px;padding-top: 20px;
+  line-height: 3;
 }
