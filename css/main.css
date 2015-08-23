@@ -12,6 +12,7 @@
 
 html {
     color: #222;
+    text-align: center;
     font-size: 1em;
     margin: 0;
     padding: 0;
@@ -284,7 +285,7 @@ textarea {
 .head{
         width:100%;
         margin:0 auto;
-        background-color: #8e44ad;
+        /*background-color: #8e44ad;*/
         color: white;
         height: 80px;
 }
@@ -306,7 +307,7 @@ textarea {
 }
 .home-content{
     height: 565px;
-    background: #444;
+    /*background: #444;*/
     font-size: 100px;
     color: white;
     box-sizing: border-box;
@@ -322,23 +323,23 @@ textarea {
 .sm{
   float: left;
   width:46%;
-  padding-top: 30vh;
+  padding-top: 27vh;
   text-align: right;
 }
 .house{width: 100px;
-  padding-top: 28vh;
+  padding-top: 25vh;
   height: 110px;
   float: left;
 }
 .rty{
-  padding-top: 30vh;
+  padding-top: 27vh;
   width:46%;
   text-align: left;
   float: right;
 }
 .subline{
   float: left;
-  font-size: 30px;
+  font-size: 20px;
   font-variant: small-caps;
   width: 100%;
   bottom: 20px;
@@ -348,7 +349,7 @@ textarea {
 .subtext{
   float: left;
   display: none;
-  font-size: 25px;
+  font-size: 20px;
   font-variant: small-caps;
   width: 100%;
   position: relative;
@@ -361,15 +362,105 @@ textarea {
   padding: 30px 15% ;
   padding-bottom: 0px;
 }
-.about-title{
+.title{
   color: #9a12b3;
   font-size: 40px;
 }
-.about-title div{
+.title div{
   font-size: 24px;
   position: relative;
   bottom: 12px;
 }
 .info-graphic{
   height:360px;
+}
+.features-container{
+  background: #8e44ad;
+  padding: 30px 5%;
+  padding-bottom: 0;
+  font-size: 16px;
+  height: 850px;
+  color: #fff;
+}
+.features-container .title{
+  color:#fff;
+}
+.feature-title{
+  font-weight: bold;
+  font-size: 24px;
+  padding:0 20px;
+}
+.features{
+  margin-top: 50px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 55%;
+}
+.desc{
+  padding:15px 50px;
+}
+.left{
+  float: left;
+  text-align: left;
+}
+.right{
+  float: right;
+  text-align: right;
+}
+.work .title{
+  padding-top: 30px;
+}
+.flow-title{
+  font-size: 24px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.flow-desc{
+  font-size: 16px;
+  padding: 0 20px;
+}
+.future{
+  width:60%;
+}
+.img{
+  width:20%;
+  height:100px;
+}
+.flow-left{
+  /*float:right;*/
+  text-align: right;
+  /*padding-right: 50px;*/
+}
+.flow-right{
+  /*float: left;*/
+  text-align: left;
+  /*padding-left: 50px;*/
+}
+.img-left:{
+  float: left;
+}
+.img-right{
+  float:right;
+}
+.columns div{
+  display: inline-block;
+}
+.contact{
+  padding: 30px 5%;
+  background: #8e44ad;
+  height:400px;
+}
+.contact .title{
+  color: #fff;
+}
+.form-elem{
+  width:55%;
+  float:left;
+  color: #fff;
+  text-align: left;
+}
+input[type]{
+  size:1000;
+  color: #fff;
 }
